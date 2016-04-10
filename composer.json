@@ -1,0 +1,13 @@
+{
+  "require": {
+    "doctrine/orm": "dev-master",
+    "symfony/yaml": "dev-master",
+    "gpolguere/path-to-regexp-php": "dev-master"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.2.*"
+  },
+  "autoload": {
+    "psr-4": {"EnRoute\\": "src/"}
+  }
+}
